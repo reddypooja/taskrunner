@@ -13,4 +13,4 @@ taskRunner.run(mockTask, 8, 4000);
 
 The above example corresponds to the following flow:
 
-
+![Image Task Runner](https://github.com/reddypooja/taskrunner/blob/master/solution/taskflow.png)
