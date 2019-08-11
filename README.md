@@ -34,5 +34,6 @@ Let's say our taskRunner can execute only 2 tasks in parallel. When more tasks a
 
 The following video is an example of how the tasks are executed.
 
+![Video of task runner result](https://github.com/reddypooja/taskrunner/blob/master/taskRunnerGif1.gif)
 
-Try executing the problem yourself before looking at the [solution]().
+Try executing the problem yourself before looking at the [solution](https://github.com/reddypooja/taskrunner/blob/master/solution/TaskRunner.js).
