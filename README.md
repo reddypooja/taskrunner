@@ -15,11 +15,14 @@ We want to run the following command
 taskRunner.run(/* taskName, taskId, numberOfSeconds */)
 ```
 
+```
 The `run` function accepts 3 parameters
     - taskName: The function that needs to be executed
     - taskId: The id of the task
     - numberOfSeconds: How long the task takes to execute 
+```
 
+```
 taskRunner.run(mockTask, 1, 5000);
 taskRunner.run(mockTask, 2, 5000);
 taskRunner.run(mockTask, 3, 4000);
@@ -28,7 +31,7 @@ taskRunner.run(mockTask, 5, 1000);
 taskRunner.run(mockTask, 6, 3000);
 taskRunner.run(mockTask, 7, 4000);
 taskRunner.run(mockTask, 8, 4000);
-
+```
 
 Let's say our taskRunner can execute only 2 tasks in parallel. When more tasks are added,the taskRunner will keep the other tasks in a queue and wait for the current tasks to finish executing, and then add other tasks sequentially.
 
